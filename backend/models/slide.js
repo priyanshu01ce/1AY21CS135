@@ -1,6 +1,6 @@
 class SlidingWindow {
     constructor(size) {
-      this.size = size;
+      this.size = 10;
       this.window = [];
     }
   

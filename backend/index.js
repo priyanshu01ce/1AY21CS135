@@ -2,7 +2,7 @@ require('dotenv').config();
 const express = require('express');
 const bodyParser = require('body-parser');
 const apiRoutes = require('./routes/api');
-const requestTimeout = require('./middlewares/requestTimeout');
+const requestTimeout = require('./middleware/requestTimeout');
 
 const app = express();
 const port = process.env.PORT || 9876;

@@ -5,7 +5,7 @@ const apiRoutes = require('./routes/api');
 const requestTimeout = require('./middlewares/requestTimeout');
 
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 9876;
 
 // Middleware
 app.use(bodyParser.json());
